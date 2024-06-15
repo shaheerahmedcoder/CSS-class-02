@@ -1,0 +1,57 @@
+/* C O N C L U S I O N */
+/* Id has the highest pirority in all, In h1 + p and h1 ~ p its tied, In descendent and children selector descendent has more pirority,
+Universal selector has the lowest and is rarely used
+ */
+
+
+
+
+
+/* if h1 + p is commented then h1 ~ p is appled, if both are here then for first line h1 + p and for second h1 ~ p is applied */
+h1 ~ p{
+    background-color: aquamarine;
+    color: black;}
+
+h1 + p{
+    background-color: chartreuse;
+    color: tomato;
+    text-align: center;
+}
+
+
+/* descendent selector has more pirority then children selector, even when children selector is present then instead of applying it descendent is applied  */
+.abc p{
+    background-color: blue;
+    color: white;
+
+}
+
+div > p{
+    background-color: burlywood;
+    text-align: center;
+    color: black;
+}
+
+/* id has more pirority then class */
+#id{
+    background-color: violet;
+    color: black;
+    text-align: center;
+}
+
+.cp{
+    background-color: blueviolet;
+    color: yellowgreen;
+}
+
+h1{
+    background-color: aqua;
+    color: black;
+}
+
+/*Applies on every single tag even on body head tag as well  */
+*{
+    background-color: brown;
+    color: wheat;
+}
+
