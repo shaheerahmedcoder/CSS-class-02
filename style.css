@@ -1,0 +1,40 @@
+/* Children Selector */
+
+/* .child > p{
+    background-color: plum;
+    color: blue;
+    text-align: center;
+} */
+
+/*  Descendent Selector */
+
+
+/* (apply on all plus nested one because nested comes under it.) */
+/* .child p {
+    background-color: yellow;
+    color: blueviolet;
+} */
+
+ /* (apply on only  nested one .)
+ .child p {
+    background-color: yellow;
+    color: blueviolet;
+} */
+
+
+/* Adjacent Sibling Selector */
+
+/* h1 + p{
+    color: brown;
+    background-color: aquamarine;
+    text-align: end;
+} */
+
+
+/* General Sibling Selector */
+/* 
+h1 ~ p{
+    color: aliceblue;
+    background-color: chartreuse;
+    text-align: center;
+} */
